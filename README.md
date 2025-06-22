@@ -1,25 +1,33 @@
-⏱️ Time Tracker - Chrome Extension
-Track how much time you spend on websites with this simple productivity tool.
+# ⏱️ Time Tracker - Chrome Extension
 
-🚀 Features
-Tracks time per website (e.g., youtube.com)
+A simple Chrome Extension that tracks how much time you spend on each website and provides a daily popup report. Great for productivity awareness and digital well-being.
 
-Daily usage report in popup
+---
 
-Live timer on pages
+## 🚀 Features
 
-Data stored locally with chrome.storage.local
+- ⏳ Tracks time spent on each website domain (e.g., `youtube.com`, `github.com`)
+- 📋 Shows a **daily report** in a popup
+- 📌 Displays a **live timer** on every website
+- 🔒 Data is stored locally using Chrome's `storage.local`
 
-📦 Install
-Clone the repo:
 
-bash
-Copy
-Edit
-git clone https://github.com/touhidhasan786/time-tracker-extension.git
-Go to chrome://extensions/
+---
 
-Enable Developer Mode
+## 🛠️ How It Works
 
-Click Load unpacked and select the extension folder
+- Monitors active tab and window focus.
+- Tracks time only for valid URLs (ignores `chrome://`, `file://`, etc.).
+- Displays an on-page timer for instant feedback.
+- Stores data per hostname in local storage.
+- Popup shows total time per site for the current day.
+
+---
+
+## 📦 Installation
+
+1. **Download or clone** this repository:
+
+   ```bash
+  (https://github.com/touhid765/Time-Tracker.git)
 
